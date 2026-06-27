@@ -7,9 +7,9 @@ const BRAND = {
 };
 
 const LINKS = {
-  quote: "#",
+  quote: "https://jennifer677.github.io/platinum-links/quote.html",
   website: "https://www.platinumcustomco.com",
-  contact: "mailto:YOUR-EMAIL-HERE",
+  contact: "mailto:info@platinumcustomco.com",
   instagram: "#",
   facebook: "#",
   tiktok: "#",
