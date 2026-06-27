@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Request a Quote | Platinum Custom Apparel</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat:wght@500;700;800;900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="quote.css" />
+</head>
+
+<body>
+  <div class="sparkles" aria-hidden="true"></div>
+  <div class="hearts" aria-hidden="true"></div>
+
+  <main class="quote-page">
+    <section class="hero">
+      <img src="logo.png" class="logo" alt="Platinum Custom Apparel logo">
+      <h1>Request a Quote</h1>
+      <p>Tell us what you need and we’ll get back to you within 1–2 business days.</p>
+    </section>
+
+    <form id="quoteForm" class="quote-form">
+      <section class="form-card">
+        <h2>Customer Information</h2>
+
+        <label>
+          Full Name *
+          <input type="text" name="name" required>
+        </label>
+
+        <label>
+          Email *
+          <input type="email" name="email" required>
+        </label>
+
+        <label>
+          Phone *
+          <input type="tel" name="phone" required>
+        </label>
+
+        <label>
+          Preferred Contact Method
+          <select name="contactMethod">
+            <option value="">Choose one</option>
+            <option>Email</option>
+            <option>Text</option>
+            <option>Phone Call</option>
+            <option>Instagram DM</option>
+            <option>Facebook Messenger</option>
+          </select>
+        </label>
+      </section>
+
+      <section class="form-card">
+        <h2>Project Information</h2>
+
+        <label>
+          What is this order for?
+          <select name="orderType">
+            <option value="">Choose one</option>
+            <option>School Spirit Wear</option>
+            <option>Sports Team</option>
+            <option>Business Branding</option>
+            <option>Employee Apparel</option>
+            <option>Family Reunion</option>
+            <option>Vacation Shirts</option>
+            <option>Birthday</option>
+            <option>Wedding</option>
+            <option>Baby Shower</option>
+            <option>Graduation</option>
+            <option>Senior Night</option>
+            <option>Memorial Shirts</option>
+            <option>Fundraiser</option>
+            <option>Personalized Gifts</option>
+            <option>Other</option>
+          </select>
+        </label>
+
+        <label>
+          What are you ordering?
+          <select name="product">
+            <option value="">Choose one</option>
+            <option>T-Shirts</option>
+            <option>Hoodies</option>
+            <option>Crewnecks</option>
+            <option>Sweatpants</option>
+            <option>Polo Shirts</option>
+            <option>Hats</option>
+            <option>Tumblers</option>
+            <option>Other</option>
+          </select>
+        </label>
+
+        <label>
+          Estimated Quantity
+          <select name="quantity">
+            <option value="">Choose one</option>
+            <option>1–10</option>
+            <option>11–24</option>
+            <option>25–49</option>
+            <option>50–99</option>
+            <option>100+</option>
+          </select>
+        </label>
+
+        <label>
+          Due Date
+          <input type="date" name="dueDate">
+        </label>
+
+        <label>
+          Budget Optional
+          <select name="budget">
+            <option value="">Choose one</option>
+            <option>Under $250</option>
+            <option>$250–$500</option>
+            <option>$500–$1,000</option>
+            <option>$1,000+</option>
+            <option>Not sure</option>
+          </select>
+        </label>
+      </section>
+
+      <section class="form-card">
+        <h2>Design Details</h2>
+
+        <label>
+          Sizes Needed
+          <textarea name="sizes" rows="4" placeholder="Example: 4 Small, 8 Medium, 12 Large, 6 XL"></textarea>
+        </label>
+
+        <label>
+          Describe Your Vision
+          <textarea name="description" rows="5" placeholder="Tell me colors, wording, shirt color, design placement, theme, etc."></textarea>
+        </label>
+
+        <label>
+          Artwork / Logo Info
+          <textarea name="artwork" rows="4" placeholder="Do you already have artwork? Please describe it. After submitting, you can reply to the confirmation email with logo/artwork files."></textarea>
+        </label>
+
+        <label>
+          Additional Notes
+          <textarea name="notes" rows="4"></textarea>
+        </label>
+      </section>
+
+      <section class="agreement">
+        <label class="checkbox">
+          <input type="checkbox" required>
+          <span>I understand this is a quote request and not an order confirmation.</span>
+        </label>
+
+        <button type="submit" id="submitBtn">Submit Quote Request</button>
+        <p id="formMessage" class="form-message"></p>
+      </section>
+    </form>
+
+    <footer>
+      <a href="index.html">← Back to Links</a>
+    </footer>
+  </main>
+
+  <script src="quote.js"></script>
+</body>
+</html>
