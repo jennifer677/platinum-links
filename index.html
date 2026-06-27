@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Platinum Custom Apparel</title>
+  <meta name="description" content="Custom apparel for schools, teams, businesses, families and special events." />
+
+  <!-- Fonts to match the glam mockup style -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+
+  <!-- Icon set for closer-looking line icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="sparkle-layer" aria-hidden="true"></div>
+  <div class="floating-hearts" aria-hidden="true"></div>
+
+  <main class="page">
+    <section class="hero">
+      <img src="assets/logo.png" alt="Platinum Custom Apparel Logo" class="logo" />
+      <div class="tagline" id="tagline"></div>
+      <p class="description" id="description"></p>
+    </section>
+
+    <section class="main-links">
+      <a class="link-button primary" id="quoteLink" target="_blank" rel="noopener">
+        <i class="fa-regular fa-heart button-icon"></i>
+        <span id="quoteText"></span>
+        <i class="fa-solid fa-chevron-right arrow"></i>
+      </a>
+
+      <a class="link-button" id="websiteLink" target="_blank" rel="noopener">
+        <i class="fa-solid fa-globe button-icon"></i>
+        <span id="websiteText"></span>
+        <i class="fa-solid fa-chevron-right arrow"></i>
+      </a>
+
+      <a class="link-button" id="contactLink">
+        <i class="fa-regular fa-envelope button-icon"></i>
+        <span id="contactText"></span>
+        <i class="fa-solid fa-chevron-right arrow"></i>
+      </a>
+    </section>
+
+    <section class="social">
+      <div class="script-title">Let’s Connect</div>
+
+      <div class="icon-row">
+        <a id="instagramLink" class="circle-link" target="_blank" rel="noopener" aria-label="Instagram">
+          <span class="circle"><i class="fa-brands fa-instagram"></i></span>
+          <small>Instagram</small>
+        </a>
+
+        <a id="facebookLink" class="circle-link" target="_blank" rel="noopener" aria-label="Facebook">
+          <span class="circle"><i class="fa-brands fa-facebook-f"></i></span>
+          <small>Facebook</small>
+        </a>
+
+        <a id="tiktokLink" class="circle-link" target="_blank" rel="noopener" aria-label="TikTok">
+          <span class="circle"><i class="fa-brands fa-tiktok"></i></span>
+          <small>TikTok</small>
+        </a>
+      </div>
+    </section>
+
+    <section class="payments">
+      <div class="section-title">Payment Options</div>
+
+      <div class="icon-row">
+        <a id="venmoLink" class="circle-link payment venmo" target="_blank" rel="noopener" aria-label="Venmo">
+          <span class="circle">V</span>
+          <small>Venmo</small>
+        </a>
+
+        <a id="cashappLink" class="circle-link payment cashapp" target="_blank" rel="noopener" aria-label="Cash App">
+          <span class="circle">$</span>
+          <small>Cash App</small>
+        </a>
+
+        <a id="paypalLink" class="circle-link payment paypal" target="_blank" rel="noopener" aria-label="PayPal">
+          <span class="circle">P</span>
+          <small>PayPal</small>
+        </a>
+      </div>
+    </section>
+
+    <section class="services">
+      <div class="section-title">Services We Offer</div>
+      <div class="service-grid" id="serviceGrid"></div>
+    </section>
+
+    <section class="bottom-cards">
+      <a id="reviewLink" class="bottom-card" target="_blank" rel="noopener">
+        <i class="fa-regular fa-star card-icon"></i>
+        <div class="stars">★★★★★</div>
+        <h2>Leave a Review</h2>
+        <p>Your support means the world! ♡</p>
+      </a>
+
+      <a href="contact.vcf" class="bottom-card">
+        <i class="fa-regular fa-address-card card-icon"></i>
+        <h2>Save My Contact</h2>
+        <p>Tap to save my info to your phone! ♡</p>
+      </a>
+    </section>
+
+    <footer id="footerText"></footer>
+  </main>
+
+  <script src="config.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
