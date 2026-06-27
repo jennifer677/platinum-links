@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Platinum Custom Apparel</title>
+  <meta name="description" content="Custom apparel for schools, teams, businesses, families and special events." />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="floating-hearts" aria-hidden="true"></div>
+
+  <main class="page">
+    <section class="hero">
+      <img src="assets/logo.png" alt="Platinum Custom Apparel Logo" class="logo" />
+
+      <div class="tagline" id="tagline"></div>
+
+      <p class="description" id="description"></p>
+    </section>
+
+    <section class="main-links" aria-label="Main links">
+      <a class="link-button primary" id="quoteLink" target="_blank" rel="noopener">
+        <span class="button-icon">♡</span>
+        <span id="quoteText"></span>
+        <span class="arrow">›</span>
+      </a>
+
+      <a class="link-button" id="websiteLink" target="_blank" rel="noopener">
+        <span class="button-icon">◎</span>
+        <span id="websiteText"></span>
+        <span class="arrow">›</span>
+      </a>
+
+      <a class="link-button" id="contactLink">
+        <span class="button-icon">✉</span>
+        <span id="contactText"></span>
+        <span class="arrow">›</span>
+      </a>
+    </section>
+
+    <section class="connect">
+      <div class="section-title">Let’s Connect</div>
+      <div class="icon-row">
+        <a id="instagramLink" class="circle-icon" target="_blank" rel="noopener" aria-label="Instagram">IG</a>
+        <a id="facebookLink" class="circle-icon" target="_blank" rel="noopener" aria-label="Facebook">f</a>
+        <a id="tiktokLink" class="circle-icon" target="_blank" rel="noopener" aria-label="TikTok">♪</a>
+      </div>
+    </section>
+
+    <section class="payments">
+      <div class="section-title">Payment Options</div>
+      <div class="icon-row">
+        <a id="venmoLink" class="circle-icon payment venmo" target="_blank" rel="noopener" aria-label="Venmo">V</a>
+        <a id="cashappLink" class="circle-icon payment cashapp" target="_blank" rel="noopener" aria-label="Cash App">$</a>
+        <a id="paypalLink" class="circle-icon payment paypal" target="_blank" rel="noopener" aria-label="PayPal">P</a>
+      </div>
+    </section>
+
+    <section class="services">
+      <div class="section-title">Services</div>
+      <div class="service-grid" id="serviceGrid"></div>
+    </section>
+
+    <section class="bottom-cards">
+      <a id="reviewLink" class="bottom-card" target="_blank" rel="noopener">
+        <div class="card-icon">☆</div>
+        <div class="stars">★★★★★</div>
+        <h2>Leave a Review</h2>
+        <p>Your support means the world!</p>
+      </a>
+
+      <a href="contact.vcf" class="bottom-card">
+        <div class="card-icon">▣</div>
+        <h2>Save My Contact</h2>
+        <p>Tap to save my info to your phone!</p>
+      </a>
+    </section>
+
+    <footer id="footerText"></footer>
+  </main>
+
+  <script src="config.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
