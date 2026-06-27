@@ -1,0 +1,153 @@
+/* =====================================================
+   Platinum Custom Apparel Exact Mockup Page
+
+   This version uses the approved mockup as the visual design
+   so it looks exactly like the image.
+
+   Edit links in config.js.
+   Replace visual image at assets/mockup.png if needed.
+   ===================================================== */
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  min-height: 100%;
+  background: #020102;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  overflow-x: hidden;
+}
+
+.mockup-page {
+  position: relative;
+  width: min(100vw, 1024px);
+  margin: 0 auto;
+  background: #020102;
+}
+
+.mockup-image {
+  display: block;
+  width: 100%;
+  height: auto;
+  user-select: none;
+  -webkit-user-drag: none;
+}
+
+/* Invisible clickable areas */
+.hotspot {
+  position: absolute;
+  display: block;
+  z-index: 10;
+  text-decoration: none;
+  border-radius: 18px;
+}
+
+/* Optional: uncomment while testing to see click zones */
+/*
+.hotspot {
+  outline: 2px solid rgba(255,255,255,.35);
+  background: rgba(255, 0, 150, .12);
+}
+*/
+
+/* Main buttons */
+.quote {
+  left: 18%;
+  top: 31.5%;
+  width: 64%;
+  height: 5.8%;
+}
+
+.website {
+  left: 18%;
+  top: 38.1%;
+  width: 64%;
+  height: 5.5%;
+}
+
+.contact {
+  left: 18%;
+  top: 44.5%;
+  width: 64%;
+  height: 5.4%;
+}
+
+/* Social icons */
+.instagram {
+  left: 30%;
+  top: 54.3%;
+  width: 11%;
+  height: 5.6%;
+  border-radius: 50%;
+}
+
+.facebook {
+  left: 44.5%;
+  top: 54.3%;
+  width: 11%;
+  height: 5.6%;
+  border-radius: 50%;
+}
+
+.tiktok {
+  left: 59%;
+  top: 54.3%;
+  width: 11%;
+  height: 5.6%;
+  border-radius: 50%;
+}
+
+/* Payment icons */
+.venmo {
+  left: 30%;
+  top: 64.2%;
+  width: 11%;
+  height: 5.6%;
+  border-radius: 50%;
+}
+
+.cashapp {
+  left: 44.5%;
+  top: 64.2%;
+  width: 11%;
+  height: 5.6%;
+  border-radius: 50%;
+}
+
+.paypal {
+  left: 59%;
+  top: 64.2%;
+  width: 11%;
+  height: 5.6%;
+  border-radius: 50%;
+}
+
+/* Bottom cards */
+.review {
+  left: 9%;
+  top: 87.2%;
+  width: 37%;
+  height: 7.8%;
+}
+
+.save-contact {
+  left: 54%;
+  top: 87.2%;
+  width: 37%;
+  height: 7.8%;
+}
+
+/* Make it feel good on phones */
+@media (max-width: 600px) {
+  .mockup-page {
+    width: 100vw;
+  }
+}
