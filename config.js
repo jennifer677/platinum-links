@@ -1,7 +1,7 @@
 const BRAND = {
   eyebrow: "CREATE IT. WEAR IT. LOVE IT.",
   headline: "Where Your Vision Becomes Wearable.",
-  subheadline: "Premium custom apparel for schools, teams, businesses, families & special events.",
+  subheadline: "Sacramento's Premium Custom Apparel Company for Schools, Teams, Businesses, Families & Special Events.",
   footer: "Platinum Custom Apparel"
 };
 
