@@ -18,11 +18,6 @@ const LINKS = {
   googleReview: "#"
 };
 
-const BUTTON_TEXT = {
-  quote: "Request a Quote",
-  website: "Visit Website",
-  contact: "Contact Me"
-};
 
 const SERVICES = [
   { icon: "shirt", title: "Schools", items: ["PE Clothes","Spirit Wear", "Graduation", "Senior Night"] },
