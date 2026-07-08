@@ -25,7 +25,7 @@ const BUTTON_TEXT = {
 };
 
 const SERVICES = [
-  { icon: "shirt", title: "Schools", items: ["Spirit Wear", "Graduation", "Senior Night"] },
+  { icon: "shirt", title: "Schools", items: ["PE Clothes","Spirit Wear", "Graduation", "Senior Night"] },
   { icon: "trophy", title: "Teams", items: ["Game Day", "Warmups", "Fan Apparel"] },
   { icon: "briefcase", title: "Businesses", items: ["Employee Apparel", "Branding", "Events"] },
   { icon: "spark", title: "Special Events", items: ["Reunions", "Birthdays", "Vacations"] },
