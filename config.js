@@ -7,7 +7,7 @@ const BRAND = {
 
 const LINKS = {
   quote: "https://jennifer677.github.io/platinum-links/quote.html",
-  website: "https://www.platinumcustomco.com",
+  website: "website address here",
   contact: "mailto:info@platinumcustomco.com",
   instagram: "#",
   facebook: "#",
@@ -25,7 +25,7 @@ const BUTTON_TEXT = {
 };
 
 const SERVICES = [
-  { icon: "shirt", title: "Schools", items: ["Spirit Wear", "Graduation", "Senior Night"] },
+  { icon: "shirt", title: "Schools", items: ["PE Clothes","Spirit Wear", "Graduation", "Senior Night"] },
   { icon: "trophy", title: "Teams", items: ["Game Day", "Warmups", "Fan Apparel"] },
   { icon: "briefcase", title: "Businesses", items: ["Employee Apparel", "Branding", "Events"] },
   { icon: "spark", title: "Special Events", items: ["Reunions", "Birthdays", "Vacations"] },
@@ -50,12 +50,12 @@ const PROJECTS = [
   },
   {
     "image": "project-4.jpg",
-    "title": "My Team Shirts",
+    "title": "Sac State Team Shirts",
     "category": "Team Apparel"
   },
   {
     "image": "project-5.jpg",
-    "title": "916 Custom Jacket",
+    "title": "Sac State Dance Team",
     "category": "Custom Design"
   },
   {
@@ -75,7 +75,7 @@ const PROJECTS = [
   },
   {
     "image": "project-9.jpg",
-    "title": "Hoop Skills Academy",
-    "category": "Sports Apparel"
+    "title": "The Mont Hoodie",
+    "category": "Spirit Wear"
   }
 ];
