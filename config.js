@@ -75,7 +75,7 @@ const PROJECTS = [
   },
   {
     "image": "project-9.jpg",
-    "title": "Hoop Skills Academy",
-    "category": "Sports Apparel"
+    "title": "The Mont",
+    "category": "Spirit Wear"
   }
 ];
