@@ -17,6 +17,24 @@ const LINKS = {
   googleReview: "#"
 };
 
+const LINKS = {
+  quote: "https://jennifer677.github.io/platinum-links/quote.html",
+  website: "https://www.platinumcustomco.com",
+  contact: "mailto:info@platinumcustomco.com",
+  instagram: "#",
+  facebook: "#",
+  tiktok: "#",
+  venmo: "#",
+  cashapp: "#",
+  paypal: "#",
+  googleReview: "#"
+};
+
+const BUTTON_TEXT = {
+  quote: "Request a Quote",
+  website: "Visit Website",
+  contact: "Contact Me"
+};
 
 const SERVICES = [
   { icon: "shirt", title: "Schools", items: ["PE Clothes","Spirit Wear", "Graduation", "Senior Night"] },
