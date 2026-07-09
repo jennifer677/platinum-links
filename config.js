@@ -40,8 +40,8 @@ const PROJECTS = [
   },
   {
     "image": "project-2.jpg",
-    "title": "The Mont Hoodie",
-    "category": "School Apparel"
+    "title": "Pink Ribbon Hoodie",
+    "category": "Awareness Apparel"
   },
   {
     "image": "project-3.jpg",
@@ -70,8 +70,8 @@ const PROJECTS = [
   },
   {
     "image": "project-8.jpg",
-    "title": "Pink Ribbon Hoodie",
-    "category": "Awareness Apparel"
+    "title": "Sac State Dance Team",
+    "category": "Team Apparel"
   },
   {
     "image": "project-9.jpg",
