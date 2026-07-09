@@ -9,7 +9,7 @@ const LINKS = {
   quote: "https://jennifer677.github.io/platinum-links/quote.html",
   website: "website address here",
   contact: "mailto:info@platinumcustomco.com",
-  instagram: "https://www.instagram.com/platinum.916/",
+  instagram: "https://www.instagram.com/platinumcustomapparel/",
   facebook: "https://www.facebook.com/platinumcustomapparelco",
   tiktok: "#",
   venmo: "#",
